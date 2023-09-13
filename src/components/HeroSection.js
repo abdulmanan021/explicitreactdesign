@@ -14,6 +14,7 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import Container from '@mui/material/Container';
+import '../assets/css/style.css'
 
 const Item = styled(Paper)(({ theme }) => ({
     ...theme.typography.body2,
