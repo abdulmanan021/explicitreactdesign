@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/explicitreactdesign/static/css/main.be079332.css",
+    "main.js": "/explicitreactdesign/static/js/main.80603c22.js",
+    "static/js/787.9855c6ad.chunk.js": "/explicitreactdesign/static/js/787.9855c6ad.chunk.js",
+    "static/media/home_bg.png": "/explicitreactdesign/static/media/home_bg.cd5ed72904d5d5e9efe6.png",
+    "static/media/video.png": "/explicitreactdesign/static/media/video.8c406c3b4a8893a47e3f.png",
+    "static/media/waterloo.svg": "/explicitreactdesign/static/media/waterloo.c31c9372dac9f745fb5f0fdecafc519f.svg",
+    "static/media/lassonde-white.svg": "/explicitreactdesign/static/media/lassonde-white.e18a561399e65ea693782ce1a2e8e032.svg",
+    "static/media/best-white.svg": "/explicitreactdesign/static/media/best-white.b98e6eda505293a2024937ddf3727511.svg",
+    "static/media/canadian.svg": "/explicitreactdesign/static/media/canadian.5dc10d24d0a171da4f3be624d1f48dfc.svg",
+    "static/media/robot.svg": "/explicitreactdesign/static/media/robot.caa04e5a408efa4056affb772fd70f1e.svg",
+    "static/media/dart.svg": "/explicitreactdesign/static/media/dart.7ec733862e1e531cf41604a60a23fbea.svg",
+    "static/media/mic.svg": "/explicitreactdesign/static/media/mic.8bda5947661b89f1eadf757165a81c1d.svg",
+    "static/media/arm.svg": "/explicitreactdesign/static/media/arm.f43e5b8e870355eb407802ae6312a657.svg",
+    "static/media/100.svg": "/explicitreactdesign/static/media/100.77cbea327ac09b9f0ce106375748db8a.svg",
+    "static/media/speech.svg": "/explicitreactdesign/static/media/speech.ad441b47521306737fbc6b3dc86a5c2f.svg",
+    "static/media/thumbsup.svg": "/explicitreactdesign/static/media/thumbsup.24aa0cd31cd4b9dfd94a1e14c1129525.svg",
+    "static/media/file.svg": "/explicitreactdesign/static/media/file.19f3abe3056c2b4a1284c81804c053a8.svg",
+    "static/media/expitch.svg": "/explicitreactdesign/static/media/expitch.70bfdc2d861fa5465a3f825715d39eed.svg",
+    "static/media/york.svg": "/explicitreactdesign/static/media/york.64eee2b1969fda98ac7ee8dd026964b7.svg",
+    "static/media/Union.svg": "/explicitreactdesign/static/media/Union.d05bf2424b791aaf3f18a46df0d71f7e.svg",
+    "static/media/share.svg": "/explicitreactdesign/static/media/share.28e903110cfff70c39f5cf956f43469b.svg",
+    "static/media/mit.svg": "/explicitreactdesign/static/media/mit.094b50e46466c87ed8dff859a89bf207.svg",
+    "static/media/tedx.svg": "/explicitreactdesign/static/media/tedx.04b5c0a77b9ab9f003ea6d73e37998a0.svg",
+    "index.html": "/explicitreactdesign/index.html",
+    "main.be079332.css.map": "/explicitreactdesign/static/css/main.be079332.css.map",
+    "main.80603c22.js.map": "/explicitreactdesign/static/js/main.80603c22.js.map",
+    "787.9855c6ad.chunk.js.map": "/explicitreactdesign/static/js/787.9855c6ad.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be079332.css",
+    "static/js/main.80603c22.js"
+  ]
+}
