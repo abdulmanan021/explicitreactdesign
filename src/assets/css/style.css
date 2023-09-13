@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque&family=Montserrat:wght@400;700&display=swap');
+
+body {
+  font-family: Darker Grotesque;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+button,
+a {
+  font-family: Darker Grotesque !important;
+}
+
+.nav_bg {
+  background-color: rgb(229, 231, 235, 0.2) !important;
+  box-shadow: none !important;
+  border-bottom: 1px solid #E5E7EB;
+}
+
+.main_bg {
+  background-image: url('../images/home_bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.bg_black {
+  background-color: #111827;
+}
+
+.main_heading {
+  font-size: 3.2rem;
+  font-weight: 600;
+  text-align: left;
+}
+
+.secondary_heading {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  margin: 0;
+}
+
+.main_description {
+  font-size: 22px;
+  text-align: left;
+}
+
+.btn_primary {
+  border-radius: 12px;
+  border: none;
+  background-color: #E71561 !important;
+  font-size: 18px;
+  box-shadow: none !important;
+  transition: all ease-in-out 300ms;
+}
+
+.btn_primary:hover {
+  color: #E71561;
+  border: 1px solid #E71561 !important;
+  background-color: rgb(229, 231, 235, 0.2) !important;
+}
+
+.text_secondary {
+  color: #E71561 !important;
+}
+
+.text_primary {
+  color: #111827 !important;
+}
+
+.text_white {
+  color: #ffffff !important;
+}
+
+.main_play_btn {
+  min-width: 30px !important;
+  width: 30px !important;
+  height: 30px !important;
+  border-radius: 50% !important;
+  color: #ffffff !important;
+  background-color: #E71561 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all ease-in-out 300ms;
+}
+
+.main_play_btn:hover {
+  color: #E71561 !important;
+  background-color: rgb(229, 231, 235, 0.2) !important;
+  border: 1px solid #E71561 !important;
+}
+
+.card_bg {
+  box-shadow: none !important;
+  border-radius: 17px !important;
+  background: rgb(229, 231, 235);
+  background: linear-gradient(180deg, rgba(229, 231, 235, 1) 0%, rgba(249, 250, 251, 1) 100%) !important;
+}
+
+.card_bg p {
+  margin: 0px;
+}
+
+.soundwave_card {
+  box-shadow: 0px 0px 24px 0px #FFC0D7 !important;
+  border: 2px dashed #E71561;
+  border-radius: 17px !important;
+  margin: 30px auto;
+  max-width: 300px !important;
+}
+
+.sound-wave {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bar {
+  animation-name: wave-lg;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+  background: #f32968;
+  margin: 0 1.5px;
+  height: 10px;
+  width: 5px;
+  border-radius: 5px;
+}
+
+.bar:nth-child(-n+7),
+.bar:nth-last-child(-n+7) {
+  animation-name: wave-md;
+}
+
+.bar:nth-child(-n+3),
+.bar:nth-last-child(-n+3) {
+  animation-name: wave-sm;
+}
+
+@keyframes wave-sm {
+  0% {
+    opacity: 0.35;
+    height: 10px;
+  }
+
+  100% {
+    opacity: 1;
+    height: 25px;
+  }
+}
+
+@keyframes wave-md {
+  0% {
+    opacity: 0.35;
+    height: 15px;
+  }
+
+  100% {
+    opacity: 1;
+    height: 30px;
+  }
+}
+
+@keyframes wave-lg {
+  0% {
+    opacity: 0.35;
+    height: 15px;
+  }
+
+  100% {
+    opacity: 1;
+    height: 50px;
+  }
+}
+
+.work_card {
+  background-color: #F9FAFB !important;
+  border-radius: 24px !important;
+  box-shadow: none !important;
+}
+
+.ptch_section_bg {
+  background: url('../images/home_bg.png'), linear-gradient(180deg, rgba(231, 21, 97, 1) 0%, rgba(17, 24, 39, 1) 50%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top left;
+}
+
+audio {
+  width: 100%;
+}
+
+audio::-webkit-media-controls-panel {
+  border-radius: 24px;
+  border: 1px solid #888;
+  background: #626262;
+  color: #000;
+  width: 100%;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .btn_primary {
+    font-size: 10px !important;
+  }
+}
